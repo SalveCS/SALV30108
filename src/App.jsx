@@ -21,9 +21,9 @@ import sustainabilityImage1 from './assets/images/s_170525.png'
 import sustainabilityImage2 from './assets/images/s_240525.png'
 import sustainabilityImage3 from './assets/images/s_290525.png'
 import carbonoLogo from './assets/images/carbono_neutro_logo_f.png'
-import florestaSustentavel from './assets/images/floresta_sustentavel.jpg'
+import florestaSustentavel from './assets/images/floresta_sustentavel.jpg'stentavel.jpg'
 import teamImage from './assets/images/team-communication.jpg'
-import birdImage from './assets/images/bird_image.jpg'
+import birdImage from './assets/images/bird_image.jpg' // Nova imagem do pássaro
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -35,7 +35,7 @@ function App() {
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY)
     window.addEventListener('scroll', handleScroll)
-    '
+    
     // Add resource hints for performance
     addResourceHints()
     
